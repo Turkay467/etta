@@ -1,0 +1,251 @@
+#head-nav{
+    background:black;
+   
+}
+#head-nav a{
+    color:#f0e5e5;
+}
+.insta li:nth-child(3) a:after{
+content:'|';
+color:white;
+}
+/* start #ceyhun */
+ #ceyhun{
+    margin-top: 40px;
+}
+
+.input {
+    position: relative;
+    display: inline-block;
+}
+
+.input input{
+    position:relative;
+    width: 100%;
+    font-size: 23px;
+}
+.input i{
+    position:absolute;
+    top: 12px;
+    right: 10px;
+}
+#ceyhun h1{
+    line-height: 35px;
+    letter-spacing: 5px
+}
+.shopping li{
+    list-style:none;
+    float:left;
+}
+.shopping li a{
+    text-decoration:none;
+    color:black;
+}
+.shopping li span{
+    margin-right: 4px;
+}
+.cart i{
+    position:relative;
+}
+.cart span{
+    border: 1px solid red;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    font-size: 11px;
+    padding: 1px 6px;
+    position:absolute;
+    top: -10px;
+    right: -15px;
+
+}
+.makeup li{
+    list-style: none;
+    float: left;
+    font-size:22px;
+}
+.makeup li a{
+    text-decoration:none;
+    color:black;
+}
+.makeup li:not(:last-child):after{
+    content:'/'
+}
+.menu{
+    padding-right:3rem;
+}
+/* end #ceyhun  */
+
+/* start summer  */
+#summer{
+    background-image:url(img/layer-690.png);
+    height: 447px;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+#jumbo{
+    background:none;
+}
+#jumbo h1,#jumbo p{
+    text-align:center;
+    color:white;
+}
+/* start lerac */
+#lerac{
+    margin-top:30px;
+}
+.urunler li{
+    list-style:none;
+    float:left;
+    font-weight: 600;
+    font-size: 25px;
+}
+/* end lerac */
+/* start[ products */
+.content h3{
+    color: #b40f0f;
+}
+.content {
+    color:rgb(63, 62, 62);
+}
+.colors a{
+    width:17px;
+    height:17px;
+    background-color:hsl(16, 30%, 46%);
+    display:inline-block;
+}
+.colors .pink{
+    background-color: #ffc99c;
+}
+.colors .grey{
+    background-color:#ead8c9;
+}
+.colors .brown{
+    background-color:#caae97;
+}
+.desc button{
+    display:inline-block;
+    text-align:center;
+    width:71%;
+  
+}
+.desc{
+    opacity:0;
+}
+.lotion:hover .desc{
+opacity:1;
+}
+.lotion:hover{
+background-color:rgba(255, 255, 255, 0.966);
+box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
+border:1px solid grey;
+}
+.product-image{
+    position:relative; 
+}
+.hide{
+    position: absolute;
+    top: 16px;
+    left: 7px;
+    color: white;
+    background-color: #b40f0f;
+    padding: 3px 12px;
+ opacity:0;
+}
+.product-heart{
+    position: absolute;
+    top:16px;
+    right:10px;
+    font-size: 23px;
+    opacity:0;
+}
+.lotion:hover .hide{
+    opacity:1;
+}
+.lotion:hover .product-heart{
+opacity:1;
+}
+/* end products section */
+#reklam{
+    margin-top:80px;
+}
+/* .photos img{
+    transition: 0.3s;
+} */
+.img-1{
+    width:340px;
+    height:219px;
+}
+/* end reklam section */
+#lipstick{
+    margin-top:70px;
+}
+#lipstick a{
+    color:grey;
+}
+/* end lipstick section */
+footer{
+    background-color:#f5f5f5;
+    margin-top:80px;
+    padding:60px 0;
+}
+.logos h3{
+    font-size:20px;
+    display:inline-block;
+}
+.logos,.abune{
+    border-right: 1px solid rgb(184, 182, 182);
+}
+.abune button{
+    background:rgb(34, 33, 33);
+    color:white;
+    border-color:transparent;
+}
+.abune input{
+    border-color: black;
+}
+.abune i{
+    font-size: 18px;
+    color: black;
+    border: 2px solid white;
+    border-radius: 24px;
+    background-color: #ffffff;
+    width: 45px;
+    height: 42px;
+    text-align: center;
+    margin: 7px 2px;
+    padding: 11px 3px;
+}
+.komekci{
+    margin:0;
+    padding:0;
+}
+.komekci li{
+    list-style:none;
+}
+.komekci li a{
+    text-decoration:none;
+    color:black;
+}
+.sifaris h4{
+    font-size:18px;
+}
+.sifaris{
+    border-right:1px solid rgb(179, 175, 175);
+}
+.insta h4{
+    font-size: 20px;
+}
+.pulsuz{
+    border-bottom:1px solid rgb(180, 177, 177);
+    padding:50px 0;
+}
+.profile{
+    border-bottom:1px solid rgb(179, 178, 178);
+    padding:50px 0;
+    margin-bottom: 36px;
+}
+footer li a:hover{
+color:rgb(153, 151, 151);
+}
